@@ -18,6 +18,8 @@ import App2 from "./components/useCotnextWithReducer/AppForContextWithReducer";
 import UseStateDataFetch from "./components/useStateAndUseReducer/UseStateDataFetch";
 import UseReducerDataFetch from "./components/useStateAndUseReducer/UseReducerDataFetch";
 import MyMemoCounter from "./components/useMemoPractice/MyMemoCounter";
+import FocusInput from "./components/useRefPractice/FocusInput";
+import Timer from "./components/useRefPractice/Timer";
 
 export const PriceContext = React.createContext();
 export const ItemContext = React.createContext();
@@ -25,7 +27,7 @@ export const ItemContext = React.createContext();
 function App() {
 	return (
 		<div className="App">
-			<Counter />
+			{/* <Counter />
 			<Counter2 />
 			<Counter3 />
 			<HookStateArray />
@@ -46,7 +48,9 @@ function App() {
 			<App2 />
 			<UseStateDataFetch />
 			<UseReducerDataFetch />
-			<MyMemoCounter/>
+			<MyMemoCounter/> */}
+			<FocusInput/>
+			<Timer/>
 		</div>
 	);
 }
